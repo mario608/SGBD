@@ -1,0 +1,9 @@
+create DATABASE cups;
+
+CREATE TABLE pacientes(ID_paciente Int ,NOMBRE varchar(25),edad INT,tipo_sangre varchar(25));
+
+INSERT INTO pacientes(ID_paciente,nombre,edad,tipo_sangre)
+
+VALUES(3456,"oscar",23,"o+")
+
+SELECT * FROM `pacientes` WHERE ID_paciente = 3456;
